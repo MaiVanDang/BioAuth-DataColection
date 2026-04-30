@@ -729,7 +729,7 @@ class FormActivity : AppCompatActivity() {
         File(dir, fileName).bufferedWriter().use { writer ->
             when {
                 list.first() is TapEvent -> {
-                    writer.write("timestamp_ms,x,y,pressure,size,element_id,phase,hold_ms,session_id")
+                    writer.write("timestamp_ms,x,y,pressure,size,phase,hold_ms,session_id")
                     writer.newLine()
                     @Suppress("UNCHECKED_CAST")
                     (list as List<TapEvent>).forEach { e ->
