@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Không backup dữ liệu nghiên cứu lên cloud —
+    dữ liệu người dùng cần được kiểm soát theo đúng quy trình nghiên cứu
+-->
+<full-backup-content>
+    <exclude domain="file" path="dataset/" />
+    <exclude domain="external" path="dataset/" />
+</full-backup-content>

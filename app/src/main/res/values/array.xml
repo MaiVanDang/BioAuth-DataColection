@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Spinner: giới tính -->
+    <string-array name="gender_options">
+        <item>Nam</item>
+        <item>Nữ</item>
+        <item>Khác / Không muốn tiết lộ</item>
+    </string-array>
+
+    <!-- Spinner: tay thuận -->
+    <string-array name="hand_options">
+        <item>Tay phải</item>
+        <item>Tay trái</item>
+        <item>Thuận cả hai</item>
+    </string-array>
+
+    <!-- Danh sách hoạt động cho form scroll (Q scroll 1) -->
+    <string-array name="daily_activities">
+        <item>Đi học / đi làm</item>
+        <item>Ăn sáng</item>
+        <item>Ăn trưa</item>
+        <item>Ăn tối</item>
+        <item>Tập thể dục / gym</item>
+        <item>Đi bộ / chạy bộ</item>
+        <item>Nấu ăn</item>
+        <item>Mua sắm</item>
+        <item>Xem phim / TV</item>
+        <item>Chơi game</item>
+        <item>Đọc sách / báo</item>
+        <item>Nghe nhạc</item>
+        <item>Họp / hội thảo</item>
+        <item>Học bài / ôn tập</item>
+        <item>Gặp gỡ bạn bè</item>
+        <item>Đi chơi / du lịch</item>
+        <item>Làm việc nhà</item>
+        <item>Ngủ trưa</item>
+        <item>Uống cà phê / trà</item>
+        <item>Lướt mạng xã hội</item>
+        <item>Gọi điện / nhắn tin</item>
+        <item>Làm đồ án / dự án</item>
+        <item>Khác</item>
+    </string-array>
+
+    <!-- Danh sách ứng dụng thường dùng (Q scroll 2) -->
+    <string-array name="common_apps">
+        <item>Facebook</item>
+        <item>Instagram</item>
+        <item>TikTok</item>
+        <item>YouTube</item>
+        <item>Zalo</item>
+        <item>Messenger</item>
+        <item>Telegram</item>
+        <item>Gmail</item>
+        <item>Chrome / trình duyệt</item>
+        <item>Maps / Gói cước</item>
+        <item>Shopee</item>
+        <item>Lazada</item>
+        <item>Grab / Be</item>
+        <item>Spotify / nhạc</item>
+        <item>Netflix</item>
+        <item>Camera</item>
+        <item>Lịch / nhắc nhở</item>
+        <item>Tin tức</item>
+        <item>Ngân hàng</item>
+        <item>Momo / ví điện tử</item>
+        <item>Game di động</item>
+        <item>Khác</item>
+    </string-array>
+
+</resources>

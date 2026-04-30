@@ -1,0 +1,62 @@
+[versions]
+agp                      = "8.9.1"
+kotlin                   = "2.0.21"
+coreKtx                  = "1.15.0"
+appcompat                = "1.7.0"
+material                 = "1.12.0"
+constraintlayout         = "2.2.0"
+lifecycle                = "2.8.7"
+activityKtx              = "1.9.3"
+fragmentKtx              = "1.8.5"
+navigationKtx            = "2.8.4"
+coroutines               = "1.9.0"
+workManager              = "2.10.0"
+tensorflowLite           = "2.16.1"
+tensorflowLiteSupport    = "0.4.4"
+tensorflowLiteGpu        = "2.16.1"
+junit                    = "4.13.2"
+androidxJunit            = "1.2.1"
+espresso                 = "3.6.1"
+activity = "1.13.0"
+
+[libraries]
+# Core
+androidx-core-ktx             = { group = "androidx.core",      name = "core-ktx",             version.ref = "coreKtx" }
+androidx-appcompat            = { group = "androidx.appcompat",  name = "appcompat",             version.ref = "appcompat" }
+material                      = { group = "com.google.android.material", name = "material",     version.ref = "material" }
+androidx-constraintlayout     = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+# Lifecycle
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+androidx-lifecycle-livedata-ktx  = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx",  version.ref = "lifecycle" }
+androidx-lifecycle-runtime-ktx   = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx",   version.ref = "lifecycle" }
+
+# Activity / Fragment
+androidx-activity-ktx         = { group = "androidx.activity",  name = "activity-ktx",          version.ref = "activityKtx" }
+androidx-fragment-ktx         = { group = "androidx.fragment",  name = "fragment-ktx",           version.ref = "fragmentKtx" }
+
+# Navigation
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationKtx" }
+androidx-navigation-ui-ktx       = { group = "androidx.navigation", name = "navigation-ui-ktx",       version.ref = "navigationKtx" }
+
+# Coroutines
+kotlinx-coroutines-android    = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+
+# WorkManager
+androidx-work-runtime-ktx     = { group = "androidx.work",      name = "work-runtime-ktx",      version.ref = "workManager" }
+
+# TensorFlow Lite
+tensorflow-lite               = { group = "org.tensorflow",     name = "tensorflow-lite",        version.ref = "tensorflowLite" }
+tensorflow-lite-support       = { group = "org.tensorflow",     name = "tensorflow-lite-support", version.ref = "tensorflowLiteSupport" }
+tensorflow-lite-metadata      = { group = "org.tensorflow",     name = "tensorflow-lite-metadata", version.ref = "tensorflowLiteSupport" }
+tensorflow-lite-gpu           = { group = "org.tensorflow",     name = "tensorflow-lite-gpu",    version.ref = "tensorflowLiteGpu" }
+
+# Test
+junit                         = { group = "junit",              name = "junit",                  version.ref = "junit" }
+androidx-junit                = { group = "androidx.test.ext",  name = "junit",                  version.ref = "androidxJunit" }
+androidx-espresso-core        = { group = "androidx.test.espresso", name = "espresso-core",      version.ref = "espresso" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+
+[plugins]
+android-application  = { id = "com.android.application",       version.ref = "agp" }
+kotlin-android       = { id = "org.jetbrains.kotlin.android",  version.ref = "kotlin" }

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ── Base app theme (Night) ─────────────────────────────────── -->
+    <!-- Sử dụng parent là .DayNight để hệ thống tự hiểu đây là bản tối -->
+    <style name="Theme.BioAuth" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Teal 200/300 thường dùng cho Dark mode để đỡ chói hơn Teal 600 -->
+        <item name="colorPrimary">@color/teal_200</item>
+        <item name="colorPrimaryVariant">@color/teal_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <item name="colorSecondary">@color/blue_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Màu nền tối -->
+        <item name="colorSurface">#121212</item>
+        <item name="colorOnSurface">#DEFFFFFF</item> <!-- Trắng mờ 87% -->
+        <item name="colorError">#CF6679</item>
+
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- ── Toolbar (Night) ────────────────────────────────────────── -->
+    <style name="Widget.BioAuth.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">#1F1F1F</item>
+        <item name="titleTextColor">#FFFFFF</item>
+        <item name="navigationIconTint">#FFFFFF</item>
+    </style>
+
+    <!-- ── Buttons (Night) ────────────────────────────────────────── -->
+    <style name="Widget.BioAuth.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/teal_200</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15sp</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="Widget.BioAuth.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/teal_200</item>
+        <item name="android:textColor">@color/teal_200</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <!-- Activity button -->
+    <style name="Widget.BioAuth.Button.Activity" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">#33FFFFFF</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:textColor">#DEFFFFFF</item>
+        <item name="backgroundTint">#1E1E1E</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="Widget.BioAuth.Button.Activity.Done" parent="Widget.BioAuth.Button.Activity">
+        <item name="strokeColor">@color/teal_200</item>
+        <item name="backgroundTint">#1A80CBC4</item> <!-- Teal 200 với độ trong suốt thấp -->
+        <item name="android:textColor">@color/teal_200</item>
+    </style>
+
+    <!-- ── TextInputLayout (Night) ────────────────────────────────── -->
+    <style name="Widget.BioAuth.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/teal_200</item>
+        <item name="hintTextColor">@color/teal_200</item>
+        <item name="boxBackgroundColor">#1E1E1E</item>
+    </style>
+
+    <!-- ── Cards (Night) ──────────────────────────────────────────── -->
+    <style name="Widget.BioAuth.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">#1E1E1E</item>
+        <item name="cardElevation">2dp</item>
+        <item name="strokeColor">#33FFFFFF</item>
+        <item name="cardCornerRadius">12dp</item>
+    </style>
+
+    <style name="Widget.BioAuth.Card.Warning" parent="Widget.BioAuth.Card">
+        <item name="cardBackgroundColor">#2D2610</item> <!-- Vàng tối -->
+        <item name="strokeColor">#FFD54F</item>
+    </style>
+
+    <style name="Widget.BioAuth.Card.Recording" parent="Widget.BioAuth.Card">
+        <item name="cardBackgroundColor">#331212</item> <!-- Đỏ tối -->
+        <item name="strokeColor">#F44336</item>
+    </style>
+
+    <!-- ── Progress indicator (Night) ─────────────────────────────── -->
+    <style name="Widget.BioAuth.ProgressBar" parent="Widget.MaterialComponents.LinearProgressIndicator">
+        <item name="indicatorColor">@color/teal_200</item>
+        <item name="trackColor">#33FFFFFF</item>
+    </style>
+
+    <!-- ── Choice buttons (Night) ────────────────────────────────── -->
+    <style name="Widget.BioAuth.Button.Choice" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">#33FFFFFF</item>
+        <item name="android:textColor">#99FFFFFF</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.BioAuth.Button.Choice.Selected" parent="Widget.BioAuth.Button.Choice">
+        <item name="strokeColor">@color/blue_200</item>
+        <item name="backgroundTint">#1A42A5F5</item>
+        <item name="android:textColor">@color/blue_200</item>
+    </style>
+
+</resources>

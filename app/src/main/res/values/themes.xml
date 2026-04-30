@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ── Base app theme ─────────────────────────────────────────── -->
+    <style name="Theme.BioAuth" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/teal_600</item>
+        <item name="colorPrimaryVariant">@color/teal_800</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/blue_400</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:statusBarColor">@color/teal_800</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- ── Toolbar ────────────────────────────────────────────────── -->
+    <style name="Widget.BioAuth.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/teal_600</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="navigationIconTint">@color/white</item>
+    </style>
+
+    <!-- ── Buttons ────────────────────────────────────────────────── -->
+    <style name="Widget.BioAuth.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/teal_600</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+
+    <style name="Widget.BioAuth.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/teal_600</item>
+        <item name="android:textColor">@color/teal_600</item>
+        <item name="android:textSize">15sp</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <!-- Activity button (6 nút hoạt động) -->
+    <style name="Widget.BioAuth.Button.Activity" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/divider</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:textSize">13sp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="backgroundTint">@color/activity_btn_bg</item>
+    </style>
+
+    <!-- Activity button khi đã hoàn thành -->
+    <style name="Widget.BioAuth.Button.Activity.Done" parent="Widget.BioAuth.Button.Activity">
+        <item name="strokeColor">@color/teal_600</item>
+        <item name="backgroundTint">@color/teal_50</item>
+        <item name="android:textColor">@color/teal_800</item>
+    </style>
+
+    <!-- ── TextInputLayout ────────────────────────────────────────── -->
+    <style name="Widget.BioAuth.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="boxStrokeColor">@color/input_stroke</item>
+        <item name="hintTextColor">@color/teal_600</item>
+    </style>
+
+    <!-- ── Cards ──────────────────────────────────────────────────── -->
+    <style name="Widget.BioAuth.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/divider</item>
+        <item name="cardCornerRadius">12dp</item>
+    </style>
+
+    <style name="Widget.BioAuth.Card.Warning" parent="Widget.BioAuth.Card">
+        <item name="cardBackgroundColor">@color/warning_bg</item>
+        <item name="strokeColor">@color/warning_stroke</item>
+    </style>
+
+    <style name="Widget.BioAuth.Card.Recording" parent="Widget.BioAuth.Card">
+        <item name="cardBackgroundColor">@color/error_bg</item>
+        <item name="strokeColor">@color/error</item>
+    </style>
+
+    <!-- ── Progress indicator ─────────────────────────────────────── -->
+    <style name="Widget.BioAuth.ProgressBar" parent="Widget.MaterialComponents.LinearProgressIndicator">
+        <item name="indicatorColor">@color/teal_600</item>
+        <item name="trackColor">@color/divider</item>
+        <item name="trackThickness">6dp</item>
+        <item name="trackCornerRadius">3dp</item>
+    </style>
+
+    <!-- ── Choice buttons (form trắc nghiệm) ────────────────────── -->
+    <style name="Widget.BioAuth.Button.Choice" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/divider</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:textSize">13sp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.BioAuth.Button.Choice.Selected" parent="Widget.BioAuth.Button.Choice">
+        <item name="strokeColor">@color/blue_400</item>
+        <item name="backgroundTint">@color/blue_50</item>
+        <item name="android:textColor">@color/blue_800</item>
+    </style>
+
+</resources>

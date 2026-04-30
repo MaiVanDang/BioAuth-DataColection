@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BioAuth Data Collection</string>
+
+    <!-- Registration -->
+    <string name="title_registration">BioAuth - Đăng ký</string>
+    <string name="hint_name">Họ và tên</string>
+    <string name="hint_name_ex">Nguyễn Văn A</string>
+    <string name="hint_age">Tuổi</string>
+    <string name="hint_age_ex">22</string>
+    <string name="hint_device">Loại thiết bị (vd: Samsung Galaxy A54) *</string>
+    <string name="label_gender">Giới tính</string>
+    <string name="label_dominant_hand">Tay thuận</string>
+    <string name="label_device">Loại thiết bị</string>
+    <string name="label_device_ex">Samsung Galaxy A54</string>
+    <string name="consent_title">THÔNG TIN NGƯỜI THAM GIA</string>
+    <string name="consent_body">Ứng dụng này thu thập dữ liệu cảm biến chuyển động (gia tốc, góc quay, từ trường) và nhịp điệu thao tác (gõ phím, vuốt màn hình) để phục vụ nghiên cứu khoa học tại Đại học Bách Khoa Hà Nội.\n\nDữ liệu KHÔNG bao gồm nội dung văn bản bạn gõ. Dữ liệu chỉ được dùng cho mục đích nghiên cứu và sẽ được mã hóa trước khi lưu trữ.</string>
+    <string name="consent_checkbox">Tôi đã đọc và đồng ý tham gia nghiên cứu</string>
+    <string name="btn_start">Bắt đầu thu thập →</string>
+    <string name="error_name_required">Vui lòng nhập họ tên</string>
+    <string name="error_age_required">Vui lòng nhập tuổi</string>
+    <string name="error_device_required">Vui lòng nhập loại thiết bị</string>
+    <string name="error_consent_required">Vui lòng đồng ý trước khi tiếp tục</string>
+
+    <!-- Sensor Collection -->
+    <string name="title_sensor">Thu cảm biến</string>
+    <string name="btn_return">Quay lại</string>
+    <string name="label_progress">%1$d / %2$d hoạt động hoàn thành</string>
+    <string name="label_progress_ex">0 / 3 hoạt động hoàn thành</string>
+    <string name="instruction_select">Chọn một hoạt động rồi thực hiện trong 3 giây</string>
+    <string name="instruction_recording">Đang thu… hãy thực hiện hoạt động!</string>
+    <string name="instruction_done_activity">Hoàn thành! Nhấn hoạt động tiếp theo</string>
+    <string name="activity_walking_icon">🚶</string>
+    <string name="activity_sitting_icon">🪑</string>
+    <string name="activity_standing_icon">🧍</string>
+    <string name="activity_walking">Đi bộ</string>
+    <string name="activity_standing">Đứng</string>
+    <string name="activity_sitting">Ngồi</string>
+    <string name="recording_status_not_run">Chưa thu</string>
+    <string name="recording_status_running">Đang thu</string>
+    <string name="btn_stop_recording">Dừng thu</string>
+    <string name="recording_time_ex">00:00.0</string>
+    <string name="recording_status">Đang thu: %1$s</string>
+    <string name="label_sensor_acc">Acc X/Y/Z</string>
+    <string name="label_sensor_gyro">Gyro X/Y/Z</string>
+    <string name="data_ex">0.00 / 0.00 / 0.00</string>
+    <string name="samples_count">%1$d / %2$d samples</string>
+    <string name="btn_next_form">Tiếp theo: Form thu thập →</string>
+    <string name="all_activities_done">Đã thu đủ 3 hoạt động!</string>
+
+    <!-- Form -->
+    <string name="title_form">BioAuth - Form thu thập</string>
+    <string name="form_section_choice">Câu hỏi lựa chọn</string>
+    <string name="form_section_text">Câu hỏi điền thông tin</string>
+    <string name="form_section_scroll">Câu hỏi danh sách</string>
+    <string name="btn_next_question">Câu tiếp theo →</string>
+    <string name="btn_submit_form">Hoàn thành lần %1$d →</string>
+    <string name="form_round2_title">Điền lần 2 (giúp tăng chất lượng dữ liệu)</string>
+
+    <string name="number_question_ex">Câu 1/5</string>
+    <!-- Form — câu hỏi -->
+    <string name="q1_text">Bạn thường thức dậy lúc mấy giờ?</string>
+    <string name="q1_a">Trước 6h</string>
+    <string name="q1_b">6h – 7h</string>
+    <string name="q1_c">7h – 8h</string>
+    <string name="q1_d">Sau 8h</string>
+
+    <string name="q2_text">Hôm nay thời tiết thế nào?</string>
+    <string name="q2_a">Nắng đẹp</string>
+    <string name="q2_b">Có mây</string>
+    <string name="q2_c">Mưa nhỏ</string>
+    <string name="q2_d">Mưa to</string>
+
+    <string name="q3_text">Bạn thường dùng điện thoại bằng tay nào nhất?</string>
+    <string name="q3_a">Tay phải</string>
+    <string name="q3_b">Tay trái</string>
+    <string name="q3_c">Cả hai</string>
+    <string name="q3_d">Tuỳ lúc</string>
+
+    <string name="q4_text">Mức độ mệt mỏi của bạn lúc này?</string>
+    <string name="q4_a">Rất thoải mái</string>
+    <string name="q4_b">Bình thường</string>
+    <string name="q4_c">Hơi mệt</string>
+    <string name="q4_d">Rất mệt</string>
+
+    <string name="q5_text">Bạn đang ở đâu lúc này?</string>
+    <string name="q5_a">Trong nhà</string>
+    <string name="q5_b">Văn phòng</string>
+    <string name="q5_c">Ngoài trời</string>
+    <string name="q5_d">Phương tiện</string>
+
+    <string name="qt1_text">Hôm nay bạn đã làm gì? Mô tả ngắn gọn:</string>
+    <string name="qt1_hint">Nhập câu trả lời…</string>
+    <string name="qt2_text">Nhập họ và tên đầy đủ của bạn:</string>
+    <string name="qt2_hint">Họ và tên…</string>
+    <string name="qt3_text">Mô tả một hoạt động bạn yêu thích:</string>
+    <string name="qt3_hint">Nhập mô tả…</string>
+    <string name="error_text_too_short">Vui lòng nhập ít nhất %1$d ký tự</string>
+
+    <string name="qs1_text">Chọn các hoạt động bạn đã làm hôm nay:</string>
+
+    <!-- Upload -->
+    <string name="title_app">BioAuth - Sinh trắc học hành vi</string>
+    <string name="title_upload">Thu thập hoàn tất!</string>
+    <string name="label_inertial_count">Cảm biến chuyển động</string>
+    <string name="label_collected_data">Dữ liệu đã thu</string>
+    <string name="label_inertial">📐 Quán tính</string>
+    <string name="label_inertial_value">_ windows inertial</string>
+    <string name="label_tap">👆 Chạm</string>
+    <string name="label_tap_count">_ tap events</string>
+    <string name="label_keystroke">⌨️ Gõ phím</string>
+    <string name="label_keystroke_count">_ keystroke events</string>
+    <string name="label_scroll">📜 Cuộn</string>
+    <string name="label_scroll_count">_ scroll events</string>
+    <string name="label_total_size">Kích thước dữ liệu</string>
+    <string name="format_windows">%1$d windows</string>
+    <string name="format_events">%1$d events</string>
+    <string name="format_kb">%.1f KB</string>
+    <string name="warning_missing">Thiếu dữ liệu: %1$s</string>
+    <string name="btn_export_zip">Export ZIP và gửi</string>
+    <string name="btn_done">Hoàn tất</string>
+    <string name="share_title">Gửi dữ liệu nghiên cứu</string>
+    <string name="btn_submit">Hoàn tất ✓</string>
+    <string name="scroll_content_desc">Nội dung biểu mẫu có thể cuộn</string>
+
+    <!-- Foreground Service -->
+    <string name="notification_channel_id">sensor_collection</string>
+    <string name="notification_channel_name">Thu thập cảm biến</string>
+    <string name="notification_title">BioAuth đang chạy nền</string>
+    <string name="notification_text">Đang thu dữ liệu cảm biến…</string>
+    <string name="notification_action_stop">Dừng</string>
+
+    <!-- General -->
+    <string name="loading">Đang xử lý…</string>
+    <string name="error_generic">Đã xảy ra lỗi, vui lòng thử lại</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Hủy</string>
+    <string name="back">Quay lại</string>
+    <string name="_0_k_t">0 ký tự</string>
+    <string name="number_list">Danh sách ½</string>
+    <string name="time_ex">Tổng: 00:00 / 17:00 (0%)</string>
+    <string name="icon_plus">+</string>
+    <string name="icon_minus">−</string>
+    <string name="label_goal_ex">00:00 / 00:00</string>
+    <string name="label_goal">Mục tiêu</string>
+    <string name="spinner_hint_gender">-- Chọn giới tính --</string>
+    <string name="spinner_hint_hand">-- Chọn tay thuận --</string>
+    <string name="error_gender_required">Vui lòng chọn giới tính</string>
+    <string name="error_hand_required">Vui lòng chọn tay thuận</string>
+    <string name="label">Nhãn</string>
+    <string name="example">—</string>
+    <string name="app_name_vietnamese">Thu thập dữ liệu sinh trắc học</string>
+    <string name="minus_ds">Giảm mục tiêu</string>
+    <string name="plus_ds">Tăng mục tiêu</string>
+    <string name="percent">0%</string>
+    <string name="goal">Tiến độ:</string>
+    <string name="timestamp">00:00 / 02:00</string>
+    <string name="reset">reset</string>
+    <string name="activity_walking_icon_desc">activity_walking_icon_desc</string>
+    <string name="logout">Đăng xuất</string>
+</resources>
