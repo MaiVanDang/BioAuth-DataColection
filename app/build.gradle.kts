@@ -64,13 +64,6 @@ dependencies {
     // ── WorkManager ──────────────────────────────────────────────
     implementation(libs.androidx.work.runtime.ktx)
 
-    // ── TensorFlow Lite ──────────────────────────────────────────
-    implementation(libs.tensorflow.lite)
-    implementation(libs.tensorflow.lite.support)
-    implementation(libs.tensorflow.lite.metadata)
-    implementation(libs.tensorflow.lite.gpu)
-    implementation(libs.androidx.activity)
-
     // ── Test ─────────────────────────────────────────────────────
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
