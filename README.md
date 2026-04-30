@@ -58,23 +58,23 @@ RegistrationActivity
         │  → Lưu metadata.csv
         ▼
 SensorCollectionActivity  ◄──────────────────────────────────┐
-        │  Thu cảm biến IMU cho 3 hoạt động:                  │
-        │    • Đi bộ (mục tiêu: 210s)                         │
-        │    • Đứng  (mục tiêu: 300s)                         │
-        │    • Ngồi  (mục tiêu: 300s)                         │
-        │  Mỗi lần nhấn Dừng → lưu {activity}_att{N}.csv      │
-        ▼                                                      │
-FormActivity                                                   │
-        │  Điền form 3 phần (tối đa 2 lần/phiên):             │
-        │    • Phần 1: 14 câu trắc nghiệm                     │
-        │    • Phần 2: 7 câu nhập văn bản                     │
-        │    • Phần 3: 5 câu chọn nhiều (checkbox)            │
-        │  → Lưu tap_r{N}.csv, keystroke_r{N}.csv,            │
-        │    scroll_r{N}.csv                                   │
-        ▼
-UploadActivity
-        │  Xem thống kê dữ liệu đã thu                        │
-        ├──[Thu thêm dữ liệu]──────────────────────────────────┘
+        │  Thu cảm biến IMU cho 3 hoạt động:                 │
+        │    • Đi bộ (mục tiêu: 210s)                        │
+        │    • Đứng  (mục tiêu: 300s)                        │
+        │    • Ngồi  (mục tiêu: 300s)                        │
+        │  Mỗi lần nhấn Dừng → lưu {activity}_att{N}.csv     │
+        ▼                                                    │
+FormActivity                                                 │
+        │  Điền form 3 phần (tối đa 2 lần/phiên):            │
+        │    • Phần 1: 14 câu trắc nghiệm                    │
+        │    • Phần 2: 7 câu nhập văn bản                    │
+        │    • Phần 3: 5 câu chọn nhiều (checkbox)           │
+        │  → Lưu tap_r{N}.csv, keystroke_r{N}.csv,           │
+        │    scroll_r{N}.csv                                 │
+        ▼                                                    │
+UploadActivity                                               │ 
+        │  Xem thống kê dữ liệu đã thu                       │
+        ├──[Thu thêm dữ liệu]────────────────────────────────┘
         │    → Tăng session (session_1 → session_2, ...)
         │    → Quay lại SensorCollectionActivity
         │
